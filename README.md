@@ -14,7 +14,7 @@
    1. 价值主张
    从谈话内容中快速提取对方的谈话重点与情感倾向
    2. 痛点解决办法
-      主要功能都是调取百度AI开放平台的语音技术与自然语言处理技术的API来实现，使用[音频文件转写API](https://ai.baidu.com/tech/speech/aasr)实现音频转换为文本；使用[评论观点抽取API](https://ai.baidu.com/tech/nlp_apply/comment_tag)提取文本中的关键信息，再使用[情感倾向分析](https://ai.baidu.com/tech/nlp_apply/sentiment_classify)判断对方的情感态度，可用于做数据统计。
+      主要功能都是调取百度AI开放平台的语音技术与自然语言处理技术的API来实现，使用[音频文件转写API](https://ai.baidu.com/ai-doc/ITMA/Qk38ikh93)实现音频转换为文本；使用[评论观点抽取API](https://ai.baidu.com/tech/nlp_apply/comment_tag)提取文本中的关键信息，再使用[情感倾向分析](https://ai.baidu.com/tech/nlp_apply/sentiment_classify)判断对方的情感态度，可用于做数据统计。
    3. 功能与服务
       1. 批量读取模式或者手动读取模式，批量读取模式需要用户授权给app录音，每当打完电话后就会自动生成音频文件用于统计分析。如果是手动模式的话，就需要用户自己上传音频文件。
       2. 转换成文本后，让用户确认文本内容是否正确，确认无误后就开始提取关键信息，如果用户确认所提取的关键信息无误，就分析情感倾向。
@@ -22,8 +22,11 @@
       4. 为保护用户隐私，谈话记录只能储存在客户端，用户可以根据日期、对象、关键词、情感倾向来查看谈话记录。
 #### 4. 产品原型
    1. 产品架构
-![快客摘要app架构](image/快客摘取app.png )
+![快客摘要app架构](image/快客摘取app.png )  
+
    2. axure原型（低保真）
-   https://voeth.github.io/API_ML_AI/快客app_prototype/
+   [快客app_prototype](https://voeth.github.io/API_ML_AI/快客app_prototype/)  
+   
    3. 代码示例
+   [快客app%20集成百度智能云api开发代码示例](https://voeth.github.io/API_ML_AI/sources/%E5%BF%AB%E5%AE%A2app%20%E9%9B%86%E6%88%90%E7%99%BE%E5%BA%A6%E6%99%BA%E8%83%BD%E4%BA%91api%E5%BC%80%E5%8F%91%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)  
 #### 5. 产品运营与盈利
