@@ -1,7 +1,7 @@
 ## 快客app产品需求与市场需求文档
 ## 很荣幸接受大佬的检阅！大佬辛苦了！ :clap:  :clap:  :clap: :clap:
 #### 目录
-   1. [市场需求与竞品分析](https://github.com/voeth/API_ML_AI#1-%E5%B8%82%E5%9C%BA%E9%9C%80%E6%B1%82%E4%B8%8E%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90)
+   1. [市场需求与竞品分析](https://github.com/voeth/API_ML_AI#1-%E5%B8%82%E5%9C%BA%E9%9C%80%E6%B1%82%E4%B8%8E%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90)  
    2. [用户概述](https://github.com/voeth/API_ML_AI#2-%E7%94%A8%E6%88%B7%E6%A6%82%E8%BF%B0)
    3. [产品介绍](https://github.com/voeth/API_ML_AI#3-%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D)
    4. [产品原型](https://github.com/voeth/API_ML_AI#4-%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B)
@@ -26,9 +26,11 @@
 #### 3. 产品介绍
    1. 价值主张
    从谈话内容中快速提取对方的谈话重点与情感倾向，为企业收集用户体验
-   2. 痛点解决办法
+   2. 20*20 展示
+   看文字太累了？看文字没看懂？请收看[视频版20*20的产品介绍](https://www.bilibili.com/video/av82768263?pop_share=1)（喉咙沙哑，说话困难只能配BGM了）
+   3. 痛点解决办法
       主要功能都是调取百度AI开放平台的语音技术与自然语言处理技术的API来实现，使用[音频文件转写API](https://ai.baidu.com/ai-doc/ITMA/Qk38ikh93)实现音频转换为文本；使用[评论观点抽取API](https://ai.baidu.com/tech/nlp_apply/comment_tag)提取文本中的关键信息，再使用[情感倾向分析](https://ai.baidu.com/tech/nlp_apply/sentiment_classify)判断对方的情感态度，可用于做数据统计。
-   3. 功能与服务
+   4. 功能与服务
       1. 批量读取模式或者手动读取模式，批量读取模式需要用户授权给app录音，每当打完电话后就会自动生成音频文件用于统计分析。如果是手动模式的话，就需要用户自己上传音频文件。
       2. 转换成文本后，让用户确认文本内容是否正确，确认无误后就开始提取关键信息，如果用户确认所提取的关键信息无误，就分析情感倾向。
       3. 用户可以选择关键信息呈现的形式（词云、条形图等），也可以选择情感倾向的数据统计区间分组。
